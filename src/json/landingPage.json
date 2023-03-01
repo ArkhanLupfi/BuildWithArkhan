@@ -1,0 +1,185 @@
+{
+	"hero": {
+		"travelers": 80409,
+		"restaurant": 936,
+		"hotels": 2763,
+		"places": 1832
+	},
+	"mostPicked": [
+		{
+			"_id": "asd1293uasdads1",
+			"name": "BLue Beach Nature",
+			"type": "Hotel",
+			"imageUrl": "/images/image-mostpicked1.png",
+			"country": "Squarepantis",
+			"city": "Atlantis",
+			"price": "80",
+			"unit": "night"
+		},
+		{
+			"_id": "asd1293uasdads1",
+			"name": "Gianyar Resort",
+			"type": "Resort",
+			"imageUrl": "/images/image-mostpicked2.png",
+			"country": "Indonesia",
+			"city": "Bali",
+			"price": "52",
+			"unit": "night"
+		},
+		{
+			"_id": "asd1293uasdads1",
+			"name": "Ao Nang Resort",
+			"type": "Resort",
+			"imageUrl": "/images/image-mostpicked4.png",
+			"country": "Thailand",
+			"city": "Nang",
+			"price": "80",
+			"unit": "night"
+		},
+		{
+			"_id": "asd1293uasdads1",
+			"name": "Punta Cana Resort",
+			"type": "Resort",
+			"imageUrl": "/images/image-mostpicked3.png",
+			"country": "Republik",
+			"city": "Dominican",
+			"price": "80",
+			"unit": "night"
+		},
+		{
+			"_id": "asd1293uasdads1",
+			"name": "Komune Resort",
+			"type": "Resort",
+			"imageUrl": "/images/image-msotpicked5.png",
+			"country": "Indonesia",
+			"city": "Bali",
+			"price": "80",
+			"unit": "night"
+		}
+	],
+	"categories": [
+		{
+			"_id": "asd1293uasdads1",
+			"name": "Resort with beauty backyard",
+			"items": [
+				{
+					"_id": "asd1293uasdads1",
+					"name": "PSW Antasari",
+					"imageUrl": "/images/image-categories-1.png",
+					"country": "South Korea",
+					"city": "Seoul Flore",
+					"isPopular": false
+				},
+				{
+					"_id": "asd1293uasdads1",
+					"name": "Kintamani Resort",
+					"imageUrl": "/images/image-categories-2.png",
+					"country": "Indonesia",
+					"city": "Bali",
+					"isPopular": true
+				},
+				{
+					"_id": "asd1293uasdads1",
+					"name": "Arya Duta",
+					"imageUrl": "/images/image-categories-3.png",
+					"country": "South Korea",
+					"city": "Seoul Flore",
+					"isPopular": false
+				},
+				{
+					"_id": "asd1293uasdads1",
+					"name": "Grand Dhika",
+					"imageUrl": "/images/image-categories-4.png",
+					"country": "South Korea",
+					"city": "Seoul Flore",
+					"isPopular": false
+				}
+			]
+		},
+		{
+			"_id": "asd1293uasdads1",
+			"name": "Hotels with large living room",
+			"items": [
+				{
+					"_id": "asd1293uasdads1",
+					"name": "PSW Antasari",
+					"imageUrl": "/images/image-categories-5.png",
+					"country": "South Korea",
+					"city": "Seoul Flore",
+					"isPopular": false
+				},
+				{
+					"_id": "asd1293uasdads1",
+					"name": "Kuretakeso",
+					"imageUrl": "/images/image-categories-6.png",
+					"country": "South Korea",
+					"city": "Seoul Flore",
+					"isPopular": false
+				},
+				{
+					"_id": "asd1293uasdads1",
+					"name": "Arya Duta",
+					"imageUrl": "/images/image-categories-7.png",
+					"country": "South Korea",
+					"city": "Seoul Flore",
+					"isPopular": true
+				},
+				{
+					"_id": "asd1293uasdads1",
+					"name": "Grand Dhika",
+					"imageUrl": "/images/image-categories-8.png",
+					"country": "South Korea",
+					"city": "Seoul Flore",
+					"isPopular": false
+				}
+			]
+		},
+		{
+			"_id": "asd1293uasdads1",
+			"name": "Apartments with kitchen set",
+			"items": [
+				{
+					"_id": "asd1293uasdads1",
+					"name": "PSW Antasari",
+					"imageUrl": "/images/image-categories-9.png",
+					"country": "South Korea",
+					"city": "Seoul Flore",
+					"isPopular": true
+				},
+				{
+					"_id": "asd1293uasdads1",
+					"name": "Kuretakeso",
+					"imageUrl": "/images/image-categories-10.png",
+					"country": "South Korea",
+					"city": "Seoul Flore",
+					"isPopular": false
+				},
+				{
+					"_id": "asd1293uasdads1",
+					"name": "Arya Duta",
+					"imageUrl": "/images/image-categories-11.png",
+					"country": "South Korea",
+					"city": "Seoul Flore",
+					"isPopular": false
+				},
+				{
+					"_id": "asd1293uasdads1",
+					"name": "Grand Dhika",
+					"imageUrl": "/images/image-categories-12.png",
+					"country": "South Korea",
+					"city": "Seoul Flore",
+					"isPopular": false
+				}
+			]
+		}
+	],
+	"testimonial": {
+		"_id": "asd1293uasdads1",
+		"imageUrl": "/images/testimonial-landingpages.png",
+		"name": "Happy Family",
+		"rate": 4.55,
+		"content": "What a great trip with my family and I should try again next time soon ...",
+		"familyName": "Angga",
+		"familyOccupation": "Product Designer"
+	}
+}
