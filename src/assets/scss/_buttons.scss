@@ -5,7 +5,9 @@
 //
 
 .btn {
-	display: inline-block;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
 	font-family: $btn-font-family;
 	font-weight: $btn-font-weight;
 	color: $body-color;
@@ -15,16 +17,15 @@
 	cursor: if($enable-pointer-cursor-for-buttons, pointer, null);
 	user-select: none;
 	background-color: transparent;
-	min-height: 50px;
-	min-width: 200px;
-	font-weight: 500;
 	border: $btn-border-width solid transparent;
+	min-height: 45px;
+	min-width: 200px;
 	@include button-size(
 		$btn-padding-y,
 		$btn-padding-x,
 		$btn-font-size,
 		$btn-line-height,
-		5px
+		4px
 	);
 	@include transition($btn-transition);
 
@@ -56,7 +57,7 @@
 	}
 
 	&.btn-shadow {
-		box-shadow: 0px 8px 10px rgba($primary, 0.3);
+		box-shadow: 0px 8px 15px rgba($primary, 0.3);
 	}
 }
 
@@ -141,7 +142,7 @@ fieldset:disabled a.btn {
 //
 
 .btn-block {
-	display: block;
+	display: flex;
 	width: 100%;
 
 	// Vertically space out multiple block buttons

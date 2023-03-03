@@ -64,10 +64,10 @@
 			"items": [
 				{
 					"_id": "asd1293uasdads1",
-					"name": "PSW Antasari",
+					"name": "Lost Barilles Resort",
 					"imageUrl": "/images/image-categories-1.png",
-					"country": "South Korea",
-					"city": "Seoul Flore",
+					"country": "California",
+					"city": "Baja",
 					"isPopular": false
 				},
 				{
@@ -80,18 +80,18 @@
 				},
 				{
 					"_id": "asd1293uasdads1",
-					"name": "Arya Duta",
+					"name": "Ibiza Resort",
 					"imageUrl": "/images/image-categories-3.png",
-					"country": "South Korea",
-					"city": "Seoul Flore",
+					"country": "Espana",
+					"city": "Ibiza",
 					"isPopular": false
 				},
 				{
 					"_id": "asd1293uasdads1",
-					"name": "Grand Dhika",
+					"name": "Bangli Resort",
 					"imageUrl": "/images/image-categories-4.png",
-					"country": "South Korea",
-					"city": "Seoul Flore",
+					"country": "USA",
+					"city": "Hawai",
 					"isPopular": false
 				}
 			]
@@ -102,34 +102,34 @@
 			"items": [
 				{
 					"_id": "asd1293uasdads1",
-					"name": "PSW Antasari",
+					"name": "Green Park",
 					"imageUrl": "/images/image-categories-5.png",
-					"country": "South Korea",
-					"city": "Seoul Flore",
+					"country": "Indonesia",
+					"city": "Jakarta",
 					"isPopular": false
 				},
 				{
 					"_id": "asd1293uasdads1",
-					"name": "Kuretakeso",
+					"name": "Dallas",
 					"imageUrl": "/images/image-categories-6.png",
-					"country": "South Korea",
-					"city": "Seoul Flore",
+					"country": "France",
+					"city": "Paris",
 					"isPopular": false
 				},
 				{
 					"_id": "asd1293uasdads1",
-					"name": "Arya Duta",
+					"name": "Ewing Twon",
 					"imageUrl": "/images/image-categories-7.png",
-					"country": "South Korea",
-					"city": "Seoul Flore",
+					"country": "United States",
+					"city": "Arizona",
 					"isPopular": true
 				},
 				{
 					"_id": "asd1293uasdads1",
-					"name": "Grand Dhika",
+					"name": "Vishal Nagar",
 					"imageUrl": "/images/image-categories-8.png",
-					"country": "South Korea",
-					"city": "Seoul Flore",
+					"country": "India",
+					"city": "Raipur",
 					"isPopular": false
 				}
 			]
@@ -140,10 +140,10 @@
 			"items": [
 				{
 					"_id": "asd1293uasdads1",
-					"name": "PSW Antasari",
+					"name": "Vishal Nagar",
 					"imageUrl": "/images/image-categories-9.png",
-					"country": "South Korea",
-					"city": "Seoul Flore",
+					"country": "India",
+					"city": "Raipur",
 					"isPopular": true
 				},
 				{
@@ -175,11 +175,11 @@
 	],
 	"testimonial": {
 		"_id": "asd1293uasdads1",
-		"imageUrl": "/images/testimonial-landingpages.png",
+		"imageUrl": "/images/testimonials-landingpages.png",
 		"name": "Happy Family",
 		"rate": 4.55,
 		"content": "What a great trip with my family and I should try again next time soon ...",
-		"familyName": "Angga",
-		"familyOccupation": "Product Designer"
+		"familyName": "Arkhan",
+		"familyOccupation": "Web Developer"
 	}
 }
