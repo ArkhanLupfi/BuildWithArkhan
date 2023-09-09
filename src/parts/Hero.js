@@ -1,19 +1,17 @@
 import React from "react";
+import Fade from "react-reveal/Fade";
 
 import ImageHero from "assets/images/img-hero.jpg";
 import ImageHero_ from "assets/images/img-hero-frame.jpg";
-import IconTraveler from "assets/images/icons/icon-travel.png";
-import IconRestaurant from "assets/images/icons/icon-restaurant.svg";
-import IconHotel from "assets/images/icons/icon-hotels.svg";
-import IconPlaces from "assets/images/icons/icon-places.jpg";
-import Fade from "react-reveal/Fade";
+
+import Button from "elements/Button";
 
 import formatNumber from "utils/formatNumber";
-import Button from "elements/Button";
+
 export default function Hero(props) {
 	function showMostPicked() {
 		window.scrollTo({
-			top: props.refMostPicked.current.offsetTop - 25,
+			top: props.refMostPicked.current.offsetTop - 30,
 			behavior: "smooth",
 		});
 	}
@@ -21,10 +19,12 @@ export default function Hero(props) {
 	return (
 		<Fade bottom>
 			<section className="container">
-				<div className="row align-item-center">
-					{/* Content */}
-					<div className="col-6">
-						<h1 className="font-weight-bold line-heigh-1 mb-3">
+				<div className="row align-items-center">
+					<div className="col-auto pr-5" style={{ width: 530 }}>
+						<h1
+							className="font-weight-bold line-heigh-1 mb-3"
+							style={{ fontSize: 40 }}
+						>
 							Forget Busy Work, <br />
 							Start Next Vacation
 						</h1>
@@ -32,95 +32,87 @@ export default function Hero(props) {
 							className="mb-4 font-weight-light text-gray-600 w-75"
 							style={{ lineHeight: "170%", fontSize: 14 }}
 						>
-							We provide what you need to enjoy your <br />
-							holiday with family. Time to make another
-							<br /> memorable moments.
+							We provide what you need to enjoy your holiday with
+							family. Time to make another memorable moments.
 						</p>
 						<Button
-							className="btn"
+							className="btn px-5"
 							hasShadow
 							isPrimary
 							onClick={showMostPicked}
 						>
-							Show me Now
+							Show Me Now
 						</Button>
 
-						{/* Icons */}
 						<div
 							className="row"
-							style={{ marginTop: 50, marginBottom: 20 }}
+							style={{ marginTop: 50, marginBottom: 30 }}
 						>
-							{/* Traveler */}
-							<div className="col-auto text-center">
+							<div
+								className="col-auto text-center"
+								style={{ marginRight: 20 }}
+							>
 								<img
-									width={33}
-									height={33}
-									src={IconTraveler}
+									width="36"
+									height="36"
+									src={`${process.env.PUBLIC_URL}/images/icon-travel.png`}
 									alt={`${props.data.travelers} Travelers`}
 								/>
-								<h6 className="mt-3" style={{ fontSize: 13 }}>
+								<h6 className="mt-3">
 									{formatNumber(props.data.travelers)}{" "}
 									<span className="text-gray-500 font-weight-light">
 										Travelers
 									</span>
 								</h6>
 							</div>
-							{/* Restaurant */}
-							<div className="col-auto text-center">
+							<div
+								className="col-auto text-center"
+								style={{ marginRight: 20 }}
+							>
 								<img
-									width={33}
-									height={33}
-									src={IconRestaurant}
-									alt={`${props.data.restaurant} Restaurant`}
+									width="36"
+									height="36"
+									src={`${process.env.PUBLIC_URL}/images/icon-places.jpg`}
+									alt={`${props.data.treasures} Treasures`}
 								/>
-								<h6 className="mt-3" style={{ fontSize: 13 }}>
-									{formatNumber(props.data.restaurant)}{" "}
-									<span className="text-gray-500 font-weight-light">
-										Restaurant
-									</span>
-								</h6>
-							</div>
-							{/* Hotels */}
-							<div className="col-auto text-center">
-								<img
-									width={33}
-									height={33}
-									src={IconHotel}
-									alt={`${props.data.hotels} Hotels`}
-								/>
-								<h6 className="mt-3" style={{ fontSize: 13 }}>
-									{formatNumber(props.data.hotels)}{" "}
-									<span className="text-gray-500 font-weight-light">
-										Hotels
-									</span>
-								</h6>
-							</div>
-							{/* Places */}
-							<div className="col-auto text-center">
-								<img
-									width={33}
-									height={33}
-									src={IconPlaces}
-									alt={`${props.data.places} Places`}
-								/>
-								<h6 className="mt-3" style={{ fontSize: 13 }}>
-									{formatNumber(props.data.places)}{" "}
+								<h6 className="mt-3">
+									{formatNumber(props.data.treasures)}{" "}
 									<span className="text-gray-500 font-weight-light">
 										Places
+									</span>
+								</h6>
+							</div>
+							<div className="col-auto text-center">
+								<img
+									width="36"
+									height="36"
+									src={`${process.env.PUBLIC_URL}/images/icon-hotels.svg`}
+									alt={`${props.data.cities} Cities`}
+								/>
+								<h6 className="mt-3">
+									{formatNumber(props.data.cities)}{" "}
+									<span className="text-gray-500 font-weight-light">
+										Hotels
 									</span>
 								</h6>
 							</div>
 						</div>
 					</div>
 
-					{/* Image Hero */}
-					<div className="col-6 pl-5">
-						<div style={{ marginTop: 30, marginLeft: 66 }}>
+					<div className="col-6 pl-9">
+						<div
+							style={{
+								width: 440,
+								height: 410,
+								marginLeft: 123,
+								marginTop: 30,
+							}}
+						>
 							<img
 								width={447}
 								height={346}
 								src={ImageHero}
-								alt="Star hotel"
+								alt="Room with couches"
 								className="img-fluid position-absolute"
 								style={{ margin: "-30px 0 0 -30px", zIndex: 1 }}
 							/>
@@ -128,7 +120,7 @@ export default function Hero(props) {
 								width={440}
 								height={346}
 								src={ImageHero_}
-								alt="Star hotel"
+								alt="Room with couches frame"
 								className="img-fluid position-absolute"
 								style={{ margin: "0 -15px -15px 0" }}
 							/>
