@@ -36,7 +36,8 @@ function BookingForm() {
 		} else if (event.target.name === "date") {
 			startDate = new Date(event.target.value.startDate);
 			endDate = new Date(event.target.value.endDate);
-			duration = new Date(endDate - startDate).getDate();
+			endDate = new Date(endDate);
+			duration = endDate.getDate() - startDate.getDate();
 		}
 
 		setData((prev) => ({

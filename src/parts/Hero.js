@@ -92,7 +92,7 @@ export default function Hero(props) {
 								<h6 className="mt-3">
 									{formatNumber(props.data.cities)}{" "}
 									<span className="text-gray-500 font-weight-light">
-										Hotels
+										Resort
 									</span>
 								</h6>
 							</div>
@@ -104,7 +104,7 @@ export default function Hero(props) {
 							style={{
 								width: 440,
 								height: 410,
-								marginLeft: 123,
+								marginLeft: 125,
 								marginTop: 30,
 							}}
 						>

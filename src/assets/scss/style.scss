@@ -50,6 +50,7 @@
 	font-size: 26px;
 	font-weight: 500;
 	font-family: "Poppins", sans-serif;
+	line-height: normal;
 	color: $primary;
 	&:hover {
 		color: $primary;
@@ -65,10 +66,6 @@ header {
 
 	.navbar {
 		height: 80px;
-
-		.brand-text-icon {
-			font-weight: 500;
-		}
 
 		ul.navbar-nav {
 			li.nav-item {
@@ -176,7 +173,7 @@ section {
 			right: 0;
 			bottom: 0;
 			transform: scale(1.1);
-			transition: 0.25s transform ease-in-out;
+			transition: 0.5s transform ease-in-out;
 		}
 
 		.meta-wrapper {
@@ -188,7 +185,7 @@ section {
 			bottom: 0;
 			width: 100%;
 			transform: translateY(0);
-			transition: 0.3s transform ease-in-out;
+			transition: 0.5s transform ease-in-out;
 			display: flex;
 			justify-content: flex-end;
 			flex-direction: column;

@@ -23,7 +23,7 @@ export default function PageDetailDescription({ data }) {
 										alt={feature.name}
 									/>{" "}
 									<span>{feature.qty}</span>{" "}
-									<span className="text-gray-500 font-weight-light">
+									<span className="text-gray-600 ">
 										{feature.name}
 									</span>
 								</div>

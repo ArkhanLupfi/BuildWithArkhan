@@ -21,7 +21,7 @@ function DetailsPage() {
 
 	const breadcrumb = [
 		{ pageTitle: "Home", pageHref: "/" },
-		{ pageTitle: "House Details", pageHref: "" },
+		{ pageTitle: "Resort Details", pageHref: "" },
 	];
 
 	const fnLoadPage = useCallback(
