@@ -51,7 +51,7 @@ export default function Hero(props) {
 							className="row"
 							style={{ marginTop: 50, marginBottom: 30 }}
 						>
-							<div className="col-auto text-center mr-3">
+							<div className="col-auto text-center mr-2">
 								<img
 									width="36"
 									height="36"
@@ -65,7 +65,7 @@ export default function Hero(props) {
 									</span>
 								</h6>
 							</div>
-							<div className="col-auto text-center mr-3">
+							<div className="col-auto text-center mr-2">
 								<img
 									width="36"
 									height="36"
