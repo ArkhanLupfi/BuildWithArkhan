@@ -20,7 +20,10 @@ export default function Hero(props) {
 		<Fade bottom>
 			<section className="container">
 				<div className="row align-items-center">
-					<div className="col-auto pr-5" style={{ width: 530 }}>
+					<div
+						className="col-12 col-lg-auto pr-5 mb-4 mb-lg-0"
+						style={{ width: 530 }}
+					>
 						<h1
 							className="font-weight-bold line-heigh-1 mb-3"
 							style={{ fontSize: 40 }}
@@ -48,10 +51,7 @@ export default function Hero(props) {
 							className="row"
 							style={{ marginTop: 50, marginBottom: 30 }}
 						>
-							<div
-								className="col-auto text-center"
-								style={{ marginRight: 20 }}
-							>
+							<div className="col-auto text-center mr-3">
 								<img
 									width="36"
 									height="36"
@@ -65,10 +65,7 @@ export default function Hero(props) {
 									</span>
 								</h6>
 							</div>
-							<div
-								className="col-auto text-center"
-								style={{ marginRight: 20 }}
-							>
+							<div className="col-auto text-center mr-3">
 								<img
 									width="36"
 									height="36"
@@ -99,30 +96,22 @@ export default function Hero(props) {
 						</div>
 					</div>
 
-					<div className="col-6 pl-9">
-						<div
-							style={{
-								width: 440,
-								height: 410,
-								marginLeft: 130,
-								marginTop: 30,
-							}}
-						>
+					<div className="col-12 col-lg-6">
+						<div className="hero-image-placeholder" style={{}}>
 							<img
 								width={447}
 								height={346}
 								src={ImageHero}
 								alt="Room with couches"
-								className="img-fluid position-absolute"
-								style={{ margin: "-30px 0 0 -30px", zIndex: 1 }}
+								className="img-fluid position-relative"
+								style={{ zIndex: 1 }}
 							/>
 							<img
 								width={440}
 								height={346}
 								src={ImageHero_}
 								alt="Room with couches frame"
-								className="img-fluid position-absolute"
-								style={{ margin: "0 -15px -15px 0" }}
+								className="img-fluid"
 							/>
 						</div>
 					</div>

@@ -56,12 +56,12 @@ function DetailsPage() {
 				style={{ zIndex: 10000, position: "relative" }}
 			>
 				<div className="row">
-					<div className="col-7 pr-5">
+					<div className="col-12 col-lg-7 pr-5">
 						<Fade bottom>
 							<PageDetailDescription data={page[id]} />
 						</Fade>
 					</div>
-					<div className="col-5">
+					<div className="col-12 col-lg-5">
 						<Fade bottom>
 							<BookingForm itemDetails={page[id]} />
 						</Fade>

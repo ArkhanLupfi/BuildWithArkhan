@@ -5,7 +5,9 @@ export default function PageDetailDescription({ data }) {
 	return (
 		<main>
 			<h4>About the place</h4>
-			{ReactHtmlParser(data.description)}
+			<div className="descrip" style={{ fontSize: 16 }}>
+				{ReactHtmlParser(data.description)}
+			</div>
 			<div className="row" style={{ marginTop: 30 }}>
 				{data.featureId.length === 0
 					? "Tidak Ada Feature"
@@ -13,7 +15,7 @@ export default function PageDetailDescription({ data }) {
 							return (
 								<div
 									key={`feature-${index}`}
-									className="col-3"
+									className="col-4 col-lg-3"
 									style={{ marginBottom: 20 }}
 								>
 									<img

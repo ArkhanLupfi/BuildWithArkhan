@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Fade from "react-reveal/Fade";
 
 import Button from "elements/Button";
@@ -7,6 +7,7 @@ import BrandIcon from "parts/IconText";
 import { useLocation } from "react-router-dom";
 
 export default function Header({ isCentered }) {
+	const [isActive, setActive] = useState(false);
 	const location = useLocation();
 
 	const getNavLinkClass = (path) => {
@@ -33,14 +34,39 @@ export default function Header({ isCentered }) {
 			</Fade>
 		);
 
+	const stylingUl = isActive
+		? {
+				position: isActive ? "absolute" : "static",
+				left: -16,
+				right: -16,
+				padding: "0 16px",
+		  }
+		: {};
 	return (
 		<Fade>
-			<header className="spacing-sm">
+			<header className="spacing-sm" style={{ zIndex: 10 }}>
 				<div className="container">
 					<nav className="navbar navbar-expand-lg navbar-light">
 						<BrandIcon />
-						<div className="collapse navbar-collapse">
-							<ul className="navbar-nav ml-auto">
+
+						<button
+							class="navbar-toggler"
+							type="button"
+							onClick={() => setActive((prev) => !prev)}
+						>
+							<span class="navbar-toggler-icon"></span>
+						</button>
+
+						<div
+							className={[
+								"collapse navbar-collapse",
+								isActive ? "show" : "",
+							].join(" ")}
+						>
+							<ul
+								className="navbar-nav ml-auto bg-white"
+								style={stylingUl}
+							>
 								<li
 									className={`nav-item${getNavLinkClass(
 										"/"
