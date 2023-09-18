@@ -19,7 +19,7 @@ function NotFound() {
 						<Button
 							className="btn mt-5"
 							type="button"
-							onClick={() => window.history.goBack()}
+							onClick={() => window.history.back()}
 							isLight
 						>
 							Yes, bring me to safe place please

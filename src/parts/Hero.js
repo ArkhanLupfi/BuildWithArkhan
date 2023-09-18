@@ -104,7 +104,7 @@ export default function Hero(props) {
 							style={{
 								width: 440,
 								height: 410,
-								marginLeft: 125,
+								marginLeft: 130,
 								marginTop: 30,
 							}}
 						>
