@@ -42,7 +42,13 @@ export default function MostPicked(props) {
 												className="stretched-link d-block text-gray-400"
 												href={`/properties/${item._id}`}
 											>
-												<h5>{item.title}</h5>
+												<h5
+													style={{
+														textDecoration: "none",
+													}}
+												>
+													{item.title}
+												</h5>
 											</Button>
 											<span className="text-gray-400">
 												{item.city}, {item.country}
