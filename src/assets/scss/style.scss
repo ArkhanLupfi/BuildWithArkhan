@@ -255,12 +255,13 @@ section {
 			flex-direction: column;
 		}
 
+		.meta-wrapper h5:hover {
+			text-decoration: none;
+		}
+
 		&:hover {
 			.meta-wrapper {
 				transform: translateY(-10px);
-			}
-			.meta-wrapper h5 {
-				text-decoration: none;
 			}
 			&:after {
 				transform: scale(1);
