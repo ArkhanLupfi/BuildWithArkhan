@@ -206,6 +206,9 @@ section {
 			font-size: 1.125rem;
 			margin-bottom: 2px;
 		}
+		h5:hover {
+			text-decoration: none;
+		}
 		span {
 			font-size: 0.875rem;
 		}
@@ -253,10 +256,6 @@ section {
 			display: flex;
 			justify-content: flex-end;
 			flex-direction: column;
-		}
-
-		.meta-wrapper h5:hover {
-			text-decoration: none;
 		}
 
 		&:hover {
