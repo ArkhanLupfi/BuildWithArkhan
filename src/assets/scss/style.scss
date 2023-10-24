@@ -259,6 +259,9 @@ section {
 			.meta-wrapper {
 				transform: translateY(-10px);
 			}
+			.meta-wrapper h5 {
+				text-decoration: none;
+			}
 			&:after {
 				transform: scale(1);
 			}
